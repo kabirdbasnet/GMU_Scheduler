@@ -1,10 +1,14 @@
 import React from 'react';
-import BlockLine from './/PageComponents/HomePage';  // Import the BlockLine component
+import { MajorProvider } from './/UserContexts/MajorContext';  // Ensure correct path here
+import HomePage from './/PageComponents/HomePage';  // Or your main component
 
-const App = ({ title }) => (
-  <div className="app-container">
-    <BlockLine />      {/* Include the BlockLine component below the title */}
-  </div>
-);
+const App = () => {
+
+    return (
+        <MajorProvider>
+            <HomePage />
+        </MajorProvider>
+    );
+}
 
 export default App;

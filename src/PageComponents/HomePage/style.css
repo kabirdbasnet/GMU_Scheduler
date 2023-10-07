@@ -20,9 +20,116 @@
   width: 100vw;
 }
 
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: absolute;
+  top: 210px;
+  left: 105px
+}
+
 .home-page-title {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    font-color: #006633;
+    font-size: 50px;
+    color: #006633;
+}
+
+.gmu-logo-container {
+       position: absolute;
+       left: 700px;
+       top: 164px;
+       background-image: url('../../Images/gmu_logo.jpg');
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 270px;
+       height: 185px;
+}
+
+.schedule-button.enabled {
+  background-color: #FFCC33; /* Yellow color */
+  color: #006633; /* Text color */
+  cursor: pointer; /* Change cursor on hover */
+  border: 1.5px solid black;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline on link inside button */
+  display: inline-block;
+  position: relative;
+  top: 224px;
+  left: 109px;
+  width: 187px;
+}
+
+/* Disabled button */
+.schedule-button.disabled {
+    background-color: #CCCCCC;
+    color: #999999;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: not-allowed;
+    position: relative;
+    top: 224px;
+    left: 109px;
+    width: 187px;
+}
+
+/* Button text style */
+.button-text {
+  text-decoration: none; /* Remove underline on link text */
+  color: inherit; /* Inherit text color from parent */
+  font-weight: bold; /* Add bold style to text */
+}
+
+/* Button hover effect */
+.schedule-button.enabled:hover {
+  background-color: #FFEAAB; /* Brighter yellow color on hover */
+  border: 1.5px solid black;
+}
+
+.schedule-button-text{
+    font-weight: bold; /* Add bold style to text */
+}
+
+.forum-button-text{
+    font-weight: bold; /* Add bold style to text */
+}
+.forum-button.enabled:hover {
+  background-color: #FFEAAB; /* Brighter yellow color on hover */
+  border: 1.5px solid black;
+}
+
+.forum-button.enabled {
+  background-color: #FFCC33; /* Yellow color */
+  color: #006633; /* Text color */
+  cursor: pointer; /* Change cursor on hover */
+  border: 1.5px solid black;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline on link inside button */
+  display: inline-block;
+  position: relative;
+  top: 187px;
+  left: 341px;
+  width: 187px;
+}
+
+/* Disabled button */
+.forum-button.disabled {
+    background-color: #CCCCCC;
+    color: #999999;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: not-allowed;
+    position: relative;
+    top: 187px;
+    left: 341px;
+    width: 187px;
 }

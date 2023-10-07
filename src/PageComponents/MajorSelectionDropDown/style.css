@@ -1,0 +1,70 @@
+.custom-button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s background-color ease;
+    width: 404px;
+    top: 206px;
+    left: 105px;
+    height: 19px;
+
+}
+.container-yellow {
+   background-color: #FFEAAB;
+}
+.container-white {
+   background-color: white;
+}
+
+.filled-text{
+    color: #006633;
+}
+
+.white-text{
+    color: #A7B5AE;
+}
+
+.custom-button:hover {
+    background-color: #FFEAAB;
+}
+
+.button-text {
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 15px;
+    align-items: flex-start;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    margin: 0;
+}
+
+.triangle-container {
+    display: flex;
+    position: relative;
+    right: -10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCC33;
+    width: 41px;
+    height: 39px;
+    border-left: 1.5px solid black;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid green;
+}
+
+
