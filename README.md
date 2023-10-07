@@ -1,5 +1,4 @@
 
-- `git clone git@github.com:rwieruch/minimal-react-webpack-babel-setup.git`
 - cd GMU_Scheduler
 - npm install
 - npm start
