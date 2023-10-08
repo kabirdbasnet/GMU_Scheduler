@@ -42,6 +42,30 @@ const EvaluationPage = () => {
             return averageDifficulty.toFixed(2); // Display with two decimal places
         };
 
+
+        const calculateDifficultyMessage = (difficulty) => {
+
+            if (difficulty >= 0 && difficulty <= 2) {
+                return 'This schedule is really easy, you could challenge yourself.';
+            }
+            if (difficulty > 2 && difficulty <= 3) {
+                return 'This schedule is easy, you could challenge a little further.';
+            }
+            if (difficulty > 3 && difficulty <= 3.5) {
+                return 'This schedule is average, you should keep your schedule at this level.';
+            }
+            if (difficulty > 3.5 && difficulty <= 4.5) {
+                return 'This schedule is challenging. Try to keep it at this level depending on if the class structure is your preference.';
+            }
+            if (difficulty > 4.5 && difficulty <= 4.9) {
+                return 'This schedule is really challenging, Try to swap out a class or two.';
+            }
+            if (difficulty ==5) {
+                return 'This schedule is really impossible, Try to swap multiple classes.';
+            }
+            return null;
+        };
+
         const courseNumberGroups = coursesToTake.reduce((groups, course) => {
                 const parsedCourse = parseCourse(course);
                 const courseNumber = parsedCourse.courseNumber;
@@ -108,7 +132,9 @@ const EvaluationPage = () => {
         <td>Rating: {calculateAverageDifficulty()}</td>
     </tr>
     <tr style={{ backgroundColor: '#d5e9e1' }}>
-        <td colSpan="4" style={{ padding: '40px' }}></td>
+        <td colSpan="4" className={"rater-type"}>{
+            calculateDifficultyMessage(calculateAverageDifficulty())
+        }</td>
     </tr>
 </tfoot>
             </table>

@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className="green-block"></div>
       <div className="yellow-line"></div>
       <div className="title-container">
-        <div className="home-page-title">Student Scheduler</div>
+        <div className="home-page-title">GMU SCHEDTALK</div>
       </div>
       <div className="gmu-logo-container" />
       <MajorSelection onChange={handleMajorSelection} />

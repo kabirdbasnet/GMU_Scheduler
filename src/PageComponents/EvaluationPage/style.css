@@ -24,7 +24,15 @@
     padding: 10px 20px;
     border: 1px solid #ddd;
   }
-  
+
+  .rater-type
+  {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #006633;
+  }
+
   th {
     background-color: #f2f2f2;
   }

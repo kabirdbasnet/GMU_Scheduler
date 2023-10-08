@@ -212,7 +212,9 @@ const handleSubmit = () => {
                 <option value={3}>Both</option>
               </select>
             </div>
-      <button className = "forum-submit-button" onClick={handleSubmit}>Submit</button>
+       <Link to={"/"}>
+        <button className = "forum-submit-button" onClick={handleSubmit}>Submit</button>
+      </Link>
     <div className="forum-logo-container" />
     <div className="vertical-line"></div>
     <div className = "comments-container">Comments</div>
