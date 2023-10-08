@@ -20,6 +20,7 @@ const HomePage = () => {
       </div>
       <div className="gmu-logo-container" />
       <MajorSelection onChange={handleMajorSelection} />
+        <Link to="/scheduleCourse">
         <button
           className={`schedule-button ${isButtonEnabled ? 'enabled' : 'disabled'}`}
           disabled={!isButtonEnabled}
@@ -28,6 +29,7 @@ const HomePage = () => {
             SCHEDULE
           </div>
         </button>
+        </Link>
         <Link to="/forum">
             <button
               className={`forum-button ${isButtonEnabled ? 'enabled' : 'disabled'}`}
