@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left:0
+}
+
+.green-block {
+  background-color: #006633;
+  height: 65px;
+  width: 100vw;
+}
+
+.yellow-line {
+  background-color: #FFCC33;
+  height:15px;
+  width: 100vw;
+}
+
+.home-page-title {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-color: #006633;
+}

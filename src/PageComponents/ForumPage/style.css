@@ -158,3 +158,92 @@ button:hover {
 dropdown-placeholder::focus {
     border-color: grey;
 }
+
+.course-data-display {
+    width: 600px;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.course-id-data {
+
+    font-size: 16px;
+}
+.comments-container {
+    position: relative;
+    left: 22px;
+    font-size: 26px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+
+.current-course{
+    position: relative;
+    left: 22px;
+    font-size: 26px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: #FFCC33;
+}
+.comment-standard
+{
+    position: relative;
+    font-size: 15px;
+    margin-top: 10px;
+    display: block;
+    color: #515151;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+
+.difficulty-standard
+{
+    position: relative;
+    font-size: 17px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+.structure-standard
+{
+    position: relative;
+    font-size: 17px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 17px;
+}
+
+.individual-comment-container
+{
+        position: relative;
+        font-size: 18px;
+        margin-top: 10px;
+        display: block;
+        color: #515151;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        margin-bottom: 17px;
+}
+
+.comment-separator {
+    width: 600px;
+    height: 1.5px;
+    background-color: #FFCC33;
+}
+
