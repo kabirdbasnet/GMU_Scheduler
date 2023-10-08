@@ -1,0 +1,160 @@
+
+/* Header styles */
+.forum-header {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #006633;
+    position: relative;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    left: 20px;
+    top: 12px;
+}
+
+/* Textarea styles */
+textarea {
+    width: 600px;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Difficulty label styles */
+.diff-header {
+    position: relative;
+    left: 22px;
+    font-size: 19px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Difficulty select styles */
+.diff-dropdown {
+    width: 118px;
+    position: relative;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    left: 20px;
+    top: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #006633;
+}
+
+.structure-header {
+    position: relative;
+    left: 197px;
+    bottom: 73px;
+    font-size: 19px;
+    margin-top: 10px;
+    display: block;
+    color: #006633;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Difficulty select styles */
+.structure-dropdown {
+    width: 145px;
+    display: flex;
+    position: relative;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    left: 194px;
+    top: -61px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #006633;
+}
+
+/* Submit button styles */
+.forum-submit-button {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #006633;
+    /* border: none; */
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 200px;
+    bottom: 61px;
+    left: 66px;
+}
+
+button:hover {
+  background-color: #FFEAAB;
+}
+
+.forum-logo-container {
+       position: absolute;
+       left: 700px;
+       top: 164px;
+       background-image: url('../../Images/gmu_logo.jpg');
+       background-size: contain;
+       background-repeat: no-repeat;
+       width: 270px;
+       height: 185px;
+}
+
+.dropdown-list {
+    left: 9px;
+    width: 208px;
+    top: 16px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-container {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.dropdown-placeholder {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    width: 200px;
+    height: 20px;
+    border-color: #ccc;
+    border-width: 1.5px;
+
+
+}
+
+.dropdown-placeholder::placeholder {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+dropdown-placeholder::focus {
+    border-color: grey;
+}

@@ -28,14 +28,16 @@ const HomePage = () => {
             SCHEDULE
           </div>
         </button>
-        <button
-          className={`forum-button ${isButtonEnabled ? 'enabled' : 'disabled'}`}
-          disabled={!isButtonEnabled}
-        >
-         <div className="schedule-button-text">
-            FORUM
-          </div>
-        </button>
+        <Link to="/forum">
+            <button
+              className={`forum-button ${isButtonEnabled ? 'enabled' : 'disabled'}`}
+              disabled={!isButtonEnabled}
+            >
+             <div className="schedule-button-text">
+                FORUM
+              </div>
+            </button>
+        </Link>
     </div>
   );
 };
